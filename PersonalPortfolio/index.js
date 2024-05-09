@@ -14,8 +14,6 @@ aplicacao.get("/", (req, res) => {
     res.render("home.ejs");
 });
 
-aplicacao.post("/home", )
-
 aplicacao.listen(porta, () => {
     console.log(`Funcionando na porta ${porta}`);
 });
